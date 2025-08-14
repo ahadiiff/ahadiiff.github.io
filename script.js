@@ -1,1 +1,1 @@
-console.log("AHADII FF website loaded successfully!");
+console.log("AHADII FF Website Loaded ✅");
