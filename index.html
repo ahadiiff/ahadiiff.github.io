@@ -4,6 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AHADII FF - Gaming Hub</title>
+    <!-- add inside <head> (above existing CSS link or after) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
+<script defer src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+
+<!-- body top: particles root + theme toggle + cursor -->
+<div id="particles-root" aria-hidden="true"></div>
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌗</button>
+<div id="cursor" class="custom-cursor" aria-hidden="true"></div>
+
+<!-- Example hero & stats area (merge with your hero) -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo glitch-logo" id="logo">AHADII<span>FF</span></div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#videos">Videos</a>
+      <a href="#leaderboard">Leaderboard</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-inner container">
+    <h1 class="headline">AHADIIFF <span class="neon">Free Fire</span></h1>
+    <p class="lead">Clutch moments · Headshots · Phonk edits</p>
+    <a class="cta neon-btn" href="#videos">Watch Now</a>
+  </div>
+</section>
+
+<section class="stats container" aria-labelledby="stats-title">
+  <h2 id="stats-title" class="section-title">Highlights</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-num" data-count="1250">0</div>
+      <div class="stat-label">Total Headshots</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" data-count="320">0</div>
+      <div class="stat-label">Clutch Wins</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" data-count="4800">0</div>
+      <div class="stat-label">Channel Views</div>
+    </div>
+  </div>
+</section>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
